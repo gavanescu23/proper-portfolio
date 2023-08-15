@@ -8,11 +8,11 @@ const About = () => {
                 <p className='text-4xl border-b-4 font-bodyfont inline font-bold border-gray-500'>About</p>
             </div>
             <p className='text-xl font-bodyfont mt-20'>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia, molestias nobis delectus culpa ipsum in beatae quis incidunt quos iure dolorum quas. Totam sunt temporibus excepturi voluptatibus eveniet. Dolorum, sed!
+                Most days I find myself doing research on the latest technologies and constantly trying to improve my skills and knowledge by working on different projects by usually finding Figma designs and trying to replicate them or using some elements in the designs I come up with.
             </p>
             <br />
             <p className='text-xl font-bodyfont'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore est perferendis unde id illo omnis, in maxime. Numquam quia pariatur dignissimos? Cumque optio dignissimos ex pariatur doloremque eum est tempora provident fugiat placeat. Modi, dolorem alias numquam cumque recusandae fugiat vero. Quis, eveniet. Non, omnis pariatur fuga tempore enim modi.
+            I consider that I have a keen eye for minimalist and simple but impactful designs, but I also lean towards futuristic and complex designs. Having photography as a hobby helps me align most elements easier thanks to the grid lines from the camera which make me align objects with the lines such that the image looks more pleasing.
             </p>
         </div>
     </div>

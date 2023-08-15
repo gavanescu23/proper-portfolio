@@ -9,6 +9,12 @@ const Home = () => {
       name="home"
       className="h-screen w-full ">
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
+      <div className='visible md:hidden mt-[50%] mb-[20%]'>
+          <img
+            className='rounded-2xl mx-auto my-10 w-3/5 md:w-3/5'
+            src={me}
+            alt="my profile" />
+        </div>
         <div className="flex flex-col justify-center h-full">
           <h2 className='text-white text-4xl font-permmarker md:text-7xl font-bold'>
             I'm a Front-End Developer
@@ -29,9 +35,9 @@ const Home = () => {
           </div>
         </div>
 
-        <div>
+        <div className='invisible md:visible'>
           <img
-            className='rounded-2xl mx-auto w-2/5 md:w-3/5'
+            className='rounded-2xl mx-auto w-3/5 md:w-3/5'
             src={me}
             alt="my profile" />
         </div>

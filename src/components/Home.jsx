@@ -9,7 +9,7 @@ const Home = () => {
       name="home"
       className="h-screen w-full ">
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
-      <div className='visible md:hidden mt-[70%] mb-[20%]'>
+      <div className='visible md:hidden mt-[70%]'>
           <img
             className='rounded-2xl mx-auto my-10 w-3/5 md:w-3/5'
             src={me}

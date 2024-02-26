@@ -1,8 +1,23 @@
 import React, { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import { Link } from 'react-scroll';
+import { motion, useMotionValueEvent, useScroll } from "framer-motion";
+import { BiLastPage } from 'react-icons/bi';
 
 const NavBar = () => {
+
+  const { scrollY } = useScroll();
+  useMotionValueEvent(scrollY, "change", (latest) => {
+    const previous = scrollY.getPrevious();
+    if( latest > previous) {
+      setHidden(true)
+    }
+    else {
+      setHidden(false)
+    }
+  })
+
+  const [hidden, setHidden] = useState(false);
 
   const [nav, setNav] = useState(false);
 
@@ -30,7 +45,14 @@ const NavBar = () => {
     
   ]
   return (
-    <div className="flex justify-between w-full h-20 items-center px-6 fixed bg-bodyColor text-white rounded-b-2xl z-50">
+    <motion.div 
+    variants={{
+      visible: { y: 0},
+      hidden: { y: "-100%"},
+    }}
+    animate={hidden ? "hidden" : "visible"}
+    transition={{duration: 0.35, ease: "easeInOut"}}
+    className="flex justify-between w-full h-20 items-center px-6 fixed bg-bodyColor text-white  z-50">
       <div className="font-logofont">
         <h1 className='text-5xl ml-2 text-transparent bg-clip-text bg-gradient-to-r from-cyan-700 via-cyan-300 to-purple-500'>Găvă.</h1>
       </div>
@@ -55,7 +77,7 @@ const NavBar = () => {
           </ul>
         </div>
       )}
-    </div >
+    </motion.div >
   )
 }
 

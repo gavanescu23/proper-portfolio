@@ -10,14 +10,13 @@ import Contact from "./components/Contact";
 function App() {
   return (
     <div className="bg-gradient-to-b from-black via-black to-gray-900 ">
-      <NavBar/>
-      <Home/>
-      <About/>
-      {/*w-full h-screen font-bodyfont text-textcolor bg-gradient-to-b from-black to-gray-900 overflow-hidden */}
-      <Portfolio/>
-      <Experience/>
-      <SocialLinks/>
-      <Contact/>
+      <NavBar />
+      <Home />
+      <About />
+      <Portfolio />
+      <Experience />
+      <SocialLinks />
+      <Contact />
     </div>
   );
 }

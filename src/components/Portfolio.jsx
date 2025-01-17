@@ -10,28 +10,29 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
+      src: img7,
+      webLink: "https://wild-oasis-website-ruddy.vercel.app/",
+      gitLink: "https://github.com/gavanescu23/wild-oasis-website",
+    },
+    {
+      id: 2,
       src: img3,
       webLink: "https://the-wild-oasis-gv.netlify.app",
       gitLink: "https://github.com/gavanescu23/the-wild-oasis",
     },
     {
-      id: 2,
+      id: 3,
       src: mp1,
       webLink: "https://gvlp1.netlify.app/",
       gitLink: "https://github.com/gavanescu23/music-player-tailwind",
     },
     {
-      id: 3,
+      id: 4,
       src: w1,
       webLink: "https://gvpw1.netlify.app/",
       gitLink: "https://github.com/gavanescu23/basic-website/tree/main",
     },
-    {
-      id: 4,
-      src: img7,
-      webLink: img7,
-      gitLink: img7,
-    },
+
     {
       id: 5,
       src: img5,

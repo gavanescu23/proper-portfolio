@@ -6,7 +6,7 @@ import img3 from "../assets/theWildOasis.jpg";
 import img4 from "./work/image4.jpg";
 import img5 from "./work/image5.jpg";
 import img6 from "./work/image6.JPG";
-import img7 from "./work/image7.jpg";
+import img7 from "./wildOasis.jpg";
 import img8 from "./work/image8.JPG";
 import mp1 from "./work/mp1.jpg";
 
